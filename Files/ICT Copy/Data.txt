@@ -1,0 +1,22 @@
+1
+This Project consists of two Systems, the Shore System and the Mobile System. The Shore System is basically a self-service system. It is kept connected to the internet and used to acquire and update the potential fishing areas. These potential fishing areas are mapped by Remote Sensing Technologies and made available to the Public by the Government itself under the name of INCOIS (Indian National Centre for Ocean Information Service). The Potential Fishing Zones are divided into 14 coastal regions throughout the country. This data is hosted in a Public domain by Government. This data is downloaded by the Shore System and the data is converted to a specific format readable by the Mobile System. This data is then transferred to the SD Card of the user.  
+The Mobile System consists of GPS Receiver, Central Controller, LCD Display and SD Card Reader. The Central Controller consists of Arduino unit and Four Input buttons. The Mobile System first checks for the stored Location Data in the SD Card. If data is found, the location will be displayed to the user from which the user can select his preferred destination region. Then, the system starts to receive the present location data from the attached GPS Module. The Controller compares the present location with the user defined location and indicates its absolute bearing and distance to location. If the location is reached, a signal indicating the same is displayed. Caution is taken to see that international water boundaries are not crossed by referencing the coordinates present on the SD card and the Internationally agreed boundaries.  
+The Potential Fishing Zone data is refreshed by the INCOIS frequently. While the user registers himself for the first time in the Shore System, his contact number is also received and stored. Whenever the INCOIS data is refreshed and the Shore System completes updating the same, an intimation will be sent to the registered contact numbers so that the Potential Fishing Zones are not out-dated. The International Border Co-ordinates are stored in such a way that these data cannot be tampered with. In addition to these precautions, the Shore System feeds a special message to the SD Card regarding the region of the fishermen so that the fishermen of one region do not go to other regions and exploit the opportunities of native fishermen of that region.
+
+2
+In Today’s Scenario, the location of potential availability of fish remains as a system without hands. The location is present as data in the website or server and on the Coasts as a display on LCD Screen. This project aims to acquire this data for the use of even small-scale fishermen and guide them to reach the potential fishing spots near their location. This system makes it possible for the fishermen to reach these potential spots with ease. This system will be in continuous contact with the fishermen and will be with them all the time.
+
+3
+This Project could be used efficiently in the Fishing Industry. It could be used by all the fishermen to get the most out of their efforts and also work in an efficient manner. It also reduces the time spent in searching for the fishes in Ocean, therefore saving the collateral costs from getting wasted
+
+4
+Since the cost of project is very minimal, it could reach all the classes of fishermen from small-scale to very-large scale and also provide ample choice to the small-scale fishermen also.
+
+5
+This project reduces the time spent for searching for fishes which helps us to save lot of time and manpower and also resources such as fuel and maintenance.
+
+6
+
+7
+Any society based project needs a platform to get exposed to the world. This project helps the fishermen community in a wide range. So this award could act as such platform and also motivate the upcoming innovators to take up a real-world and society based problems.
+
