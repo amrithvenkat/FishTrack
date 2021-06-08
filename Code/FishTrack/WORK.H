@@ -149,7 +149,7 @@ void borderselect()
     float nextpoint=slope(borders[pos+1][0],borders[pos+1][1],flat,flong);
     float prevangle=anglebet(current,prevpoint);
     float nextangle=anglebet(current,nextpoint);
-    if(nextpoint<0)
+    if(nextangle<0)
     {
       bordersel[0][0]=borders[pos][0];
       bordersel[0][1]=borders[pos][1];
@@ -474,4 +474,3 @@ void prepare()
   delay(100);
   attachInterrupt(digitalPinToInterrupt(18), Reset, FALLING);
 }
-
