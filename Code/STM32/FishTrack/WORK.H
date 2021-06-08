@@ -2,13 +2,14 @@
 //Pin 19 To Select
 //Pin 20 To Scroll Up
 //Pin 21 To Scroll Down
-//Serial0 for Debugging
-//Serial3 For GPS
-//Pin 51 For MOSI
-//Pin 50 For MISO
-//Pin 52 For SCK
-//Pin 53 Must be set as Output for Perfect SPI Operation
-//Pin 53 For SS
+
+//Serial3 TX - PB10
+//Serial3 RX - PB11
+//MOSI - PA7
+//MISO - PA6
+//SS - PA4
+//SCK - PA5
+
 //LCD RS pin to digital pin 12
 //LCD Enable pin to digital pin 11
 //LCD D4 pin to digital pin 5
@@ -149,7 +150,7 @@ void borderselect()
     float nextpoint=slope(borders[pos+1][0],borders[pos+1][1],flat,flong);
     float prevangle=anglebet(current,prevpoint);
     float nextangle=anglebet(current,nextpoint);
-    if(nextpoint<0)
+    if(nextangle<0)
     {
       bordersel[0][0]=borders[pos][0];
       bordersel[0][1]=borders[pos][1];
@@ -474,4 +475,3 @@ void prepare()
   delay(100);
   attachInterrupt(digitalPinToInterrupt(18), Reset, FALLING);
 }
-
